@@ -16,7 +16,10 @@
 @end
 
 @implementation FMPageContentViewController
-
+- (void)dealloc
+{
+    DLog(@"dealloc: %@",NSStringFromClass([self class]));
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
