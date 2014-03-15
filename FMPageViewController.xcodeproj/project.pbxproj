@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180187F718D4ABD20017E54D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180187F618D4ABD20017E54D /* Foundation.framework */; };
+		180187F918D4ABD20017E54D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180187F818D4ABD20017E54D /* CoreGraphics.framework */; };
+		180187FB18D4ABD20017E54D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180187FA18D4ABD20017E54D /* UIKit.framework */; };
+		1801880118D4ABD20017E54D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180187FF18D4ABD20017E54D /* InfoPlist.strings */; };
+		1801880318D4ABD20017E54D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801880218D4ABD20017E54D /* main.m */; };
+		1801880718D4ABD20017E54D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801880618D4ABD20017E54D /* AppDelegate.m */; };
+		1801880A18D4ABD20017E54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1801880818D4ABD20017E54D /* Main.storyboard */; };
+		1801880D18D4ABD20017E54D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801880C18D4ABD20017E54D /* ViewController.m */; };
+		1801880F18D4ABD20017E54D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1801880E18D4ABD20017E54D /* Images.xcassets */; };
+		1801881618D4ABD20017E54D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1801881518D4ABD20017E54D /* XCTest.framework */; };
+		1801881718D4ABD20017E54D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180187F618D4ABD20017E54D /* Foundation.framework */; };
+		1801881818D4ABD20017E54D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180187FA18D4ABD20017E54D /* UIKit.framework */; };
+		1801882018D4ABD20017E54D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1801881E18D4ABD20017E54D /* InfoPlist.strings */; };
+		1801882218D4ABD20017E54D /* FMPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801882118D4ABD20017E54D /* FMPageViewControllerTests.m */; };
+		1801883018D4AC020017E54D /* FMPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801882D18D4AC020017E54D /* FMPageContentViewController.m */; };
+		1801883118D4AC020017E54D /* FMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801882F18D4AC020017E54D /* FMPageViewController.m */; };
+		1801883518D4ACC80017E54D /* FMDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801883318D4ACC80017E54D /* FMDefaultViewController.m */; };
+		1801883618D4ACC80017E54D /* FMDefaultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801883418D4ACC80017E54D /* FMDefaultViewController.xib */; };
+		1801883A18D4ACCF0017E54D /* FMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801883818D4ACCF0017E54D /* FMMainViewController.m */; };
+		1801883B18D4ACCF0017E54D /* FMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801883918D4ACCF0017E54D /* FMMainViewController.xib */; };
+		1801883F18D4ACDB0017E54D /* FMOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801883D18D4ACDB0017E54D /* FMOrderViewController.m */; };
+		1801884018D4ACDB0017E54D /* FMOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801883E18D4ACDB0017E54D /* FMOrderViewController.xib */; };
+		1801884418D4ACE80017E54D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801884218D4ACE80017E54D /* FourthViewController.m */; };
+		1801884518D4ACE80017E54D /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801884318D4ACE80017E54D /* FourthViewController.xib */; };
+		1801884A18D4AD650017E54D /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1801884618D4AD650017E54D /* 1.jpeg */; };
+		1801884B18D4AD650017E54D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1801884718D4AD650017E54D /* 2.jpg */; };
+		1801884C18D4AD650017E54D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1801884818D4AD650017E54D /* 3.jpg */; };
+		1801884D18D4AD650017E54D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1801884918D4AD650017E54D /* 4.jpg */; };
+		1801884F18D4B2DE0017E54D /* 640X1136.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1801884E18D4B2DE0017E54D /* 640X1136.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1801881918D4ABD20017E54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180187EB18D4ABD20017E54D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180187F218D4ABD20017E54D;
+			remoteInfo = FMPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180187F318D4ABD20017E54D /* FMPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180187F618D4ABD20017E54D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180187F818D4ABD20017E54D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180187FA18D4ABD20017E54D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180187FE18D4ABD20017E54D /* FMPageViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMPageViewController-Info.plist"; sourceTree = "<group>"; };
+		1801880018D4ABD20017E54D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1801880218D4ABD20017E54D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1801880418D4ABD20017E54D /* FMPageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMPageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		1801880518D4ABD20017E54D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1801880618D4ABD20017E54D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1801880918D4ABD20017E54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1801880B18D4ABD20017E54D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1801880C18D4ABD20017E54D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1801880E18D4ABD20017E54D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1801881418D4ABD20017E54D /* FMPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1801881518D4ABD20017E54D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1801881D18D4ABD20017E54D /* FMPageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMPageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		1801881F18D4ABD20017E54D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1801882118D4ABD20017E54D /* FMPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPageViewControllerTests.m; sourceTree = "<group>"; };
+		1801882C18D4AC020017E54D /* FMPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMPageContentViewController.h; sourceTree = "<group>"; };
+		1801882D18D4AC020017E54D /* FMPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMPageContentViewController.m; sourceTree = "<group>"; };
+		1801882E18D4AC020017E54D /* FMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMPageViewController.h; sourceTree = "<group>"; };
+		1801882F18D4AC020017E54D /* FMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMPageViewController.m; sourceTree = "<group>"; };
+		1801883218D4ACC80017E54D /* FMDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDefaultViewController.h; sourceTree = "<group>"; };
+		1801883318D4ACC80017E54D /* FMDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDefaultViewController.m; sourceTree = "<group>"; };
+		1801883418D4ACC80017E54D /* FMDefaultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMDefaultViewController.xib; sourceTree = "<group>"; };
+		1801883718D4ACCF0017E54D /* FMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMainViewController.h; sourceTree = "<group>"; };
+		1801883818D4ACCF0017E54D /* FMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMainViewController.m; sourceTree = "<group>"; };
+		1801883918D4ACCF0017E54D /* FMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMMainViewController.xib; sourceTree = "<group>"; };
+		1801883C18D4ACDB0017E54D /* FMOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMOrderViewController.h; sourceTree = "<group>"; };
+		1801883D18D4ACDB0017E54D /* FMOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMOrderViewController.m; sourceTree = "<group>"; };
+		1801883E18D4ACDB0017E54D /* FMOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMOrderViewController.xib; sourceTree = "<group>"; };
+		1801884118D4ACE80017E54D /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		1801884218D4ACE80017E54D /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		1801884318D4ACE80017E54D /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		1801884618D4AD650017E54D /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		1801884718D4AD650017E54D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1801884818D4AD650017E54D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1801884918D4AD650017E54D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		1801884E18D4B2DE0017E54D /* 640X1136.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 640X1136.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180187F018D4ABD20017E54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180187F918D4ABD20017E54D /* CoreGraphics.framework in Frameworks */,
+				180187FB18D4ABD20017E54D /* UIKit.framework in Frameworks */,
+				180187F718D4ABD20017E54D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801881118D4ABD20017E54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801881618D4ABD20017E54D /* XCTest.framework in Frameworks */,
+				1801881818D4ABD20017E54D /* UIKit.framework in Frameworks */,
+				1801881718D4ABD20017E54D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180187EA18D4ABD20017E54D = {
+			isa = PBXGroup;
+			children = (
+				180187FC18D4ABD20017E54D /* FMPageViewController */,
+				1801881B18D4ABD20017E54D /* FMPageViewControllerTests */,
+				180187F518D4ABD20017E54D /* Frameworks */,
+				180187F418D4ABD20017E54D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180187F418D4ABD20017E54D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180187F318D4ABD20017E54D /* FMPageViewController.app */,
+				1801881418D4ABD20017E54D /* FMPageViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180187F518D4ABD20017E54D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180187F618D4ABD20017E54D /* Foundation.framework */,
+				180187F818D4ABD20017E54D /* CoreGraphics.framework */,
+				180187FA18D4ABD20017E54D /* UIKit.framework */,
+				1801881518D4ABD20017E54D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180187FC18D4ABD20017E54D /* FMPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1801882B18D4AC020017E54D /* FMPageViewController */,
+				1801880518D4ABD20017E54D /* AppDelegate.h */,
+				1801880618D4ABD20017E54D /* AppDelegate.m */,
+				1801880818D4ABD20017E54D /* Main.storyboard */,
+				1801880B18D4ABD20017E54D /* ViewController.h */,
+				1801880C18D4ABD20017E54D /* ViewController.m */,
+				1801883218D4ACC80017E54D /* FMDefaultViewController.h */,
+				1801883318D4ACC80017E54D /* FMDefaultViewController.m */,
+				1801883418D4ACC80017E54D /* FMDefaultViewController.xib */,
+				1801883718D4ACCF0017E54D /* FMMainViewController.h */,
+				1801883818D4ACCF0017E54D /* FMMainViewController.m */,
+				1801883918D4ACCF0017E54D /* FMMainViewController.xib */,
+				1801883C18D4ACDB0017E54D /* FMOrderViewController.h */,
+				1801883D18D4ACDB0017E54D /* FMOrderViewController.m */,
+				1801883E18D4ACDB0017E54D /* FMOrderViewController.xib */,
+				1801884118D4ACE80017E54D /* FourthViewController.h */,
+				1801884218D4ACE80017E54D /* FourthViewController.m */,
+				1801884318D4ACE80017E54D /* FourthViewController.xib */,
+				1801880E18D4ABD20017E54D /* Images.xcassets */,
+				180187FD18D4ABD20017E54D /* Supporting Files */,
+			);
+			path = FMPageViewController;
+			sourceTree = "<group>";
+		};
+		180187FD18D4ABD20017E54D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1801884618D4AD650017E54D /* 1.jpeg */,
+				1801884718D4AD650017E54D /* 2.jpg */,
+				1801884818D4AD650017E54D /* 3.jpg */,
+				1801884918D4AD650017E54D /* 4.jpg */,
+				1801884E18D4B2DE0017E54D /* 640X1136.jpeg */,
+				180187FE18D4ABD20017E54D /* FMPageViewController-Info.plist */,
+				180187FF18D4ABD20017E54D /* InfoPlist.strings */,
+				1801880218D4ABD20017E54D /* main.m */,
+				1801880418D4ABD20017E54D /* FMPageViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1801881B18D4ABD20017E54D /* FMPageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1801882118D4ABD20017E54D /* FMPageViewControllerTests.m */,
+				1801881C18D4ABD20017E54D /* Supporting Files */,
+			);
+			path = FMPageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		1801881C18D4ABD20017E54D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1801881D18D4ABD20017E54D /* FMPageViewControllerTests-Info.plist */,
+				1801881E18D4ABD20017E54D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1801882B18D4AC020017E54D /* FMPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1801882C18D4AC020017E54D /* FMPageContentViewController.h */,
+				1801882D18D4AC020017E54D /* FMPageContentViewController.m */,
+				1801882E18D4AC020017E54D /* FMPageViewController.h */,
+				1801882F18D4AC020017E54D /* FMPageViewController.m */,
+			);
+			path = FMPageViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180187F218D4ABD20017E54D /* FMPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1801882518D4ABD30017E54D /* Build configuration list for PBXNativeTarget "FMPageViewController" */;
+			buildPhases = (
+				180187EF18D4ABD20017E54D /* Sources */,
+				180187F018D4ABD20017E54D /* Frameworks */,
+				180187F118D4ABD20017E54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMPageViewController;
+			productName = FMPageViewController;
+			productReference = 180187F318D4ABD20017E54D /* FMPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1801881318D4ABD20017E54D /* FMPageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1801882818D4ABD30017E54D /* Build configuration list for PBXNativeTarget "FMPageViewControllerTests" */;
+			buildPhases = (
+				1801881018D4ABD20017E54D /* Sources */,
+				1801881118D4ABD20017E54D /* Frameworks */,
+				1801881218D4ABD20017E54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1801881A18D4ABD20017E54D /* PBXTargetDependency */,
+			);
+			name = FMPageViewControllerTests;
+			productName = FMPageViewControllerTests;
+			productReference = 1801881418D4ABD20017E54D /* FMPageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180187EB18D4ABD20017E54D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Dean;
+				TargetAttributes = {
+					1801881318D4ABD20017E54D = {
+						TestTargetID = 180187F218D4ABD20017E54D;
+					};
+				};
+			};
+			buildConfigurationList = 180187EE18D4ABD20017E54D /* Build configuration list for PBXProject "FMPageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180187EA18D4ABD20017E54D;
+			productRefGroup = 180187F418D4ABD20017E54D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180187F218D4ABD20017E54D /* FMPageViewController */,
+				1801881318D4ABD20017E54D /* FMPageViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180187F118D4ABD20017E54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801884D18D4AD650017E54D /* 4.jpg in Resources */,
+				1801883B18D4ACCF0017E54D /* FMMainViewController.xib in Resources */,
+				1801880F18D4ABD20017E54D /* Images.xcassets in Resources */,
+				1801880118D4ABD20017E54D /* InfoPlist.strings in Resources */,
+				1801884B18D4AD650017E54D /* 2.jpg in Resources */,
+				1801884A18D4AD650017E54D /* 1.jpeg in Resources */,
+				1801884C18D4AD650017E54D /* 3.jpg in Resources */,
+				1801880A18D4ABD20017E54D /* Main.storyboard in Resources */,
+				1801884518D4ACE80017E54D /* FourthViewController.xib in Resources */,
+				1801884018D4ACDB0017E54D /* FMOrderViewController.xib in Resources */,
+				1801884F18D4B2DE0017E54D /* 640X1136.jpeg in Resources */,
+				1801883618D4ACC80017E54D /* FMDefaultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801881218D4ABD20017E54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801882018D4ABD20017E54D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180187EF18D4ABD20017E54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801883F18D4ACDB0017E54D /* FMOrderViewController.m in Sources */,
+				1801880D18D4ABD20017E54D /* ViewController.m in Sources */,
+				1801883118D4AC020017E54D /* FMPageViewController.m in Sources */,
+				1801880718D4ABD20017E54D /* AppDelegate.m in Sources */,
+				1801883518D4ACC80017E54D /* FMDefaultViewController.m in Sources */,
+				1801883018D4AC020017E54D /* FMPageContentViewController.m in Sources */,
+				1801884418D4ACE80017E54D /* FourthViewController.m in Sources */,
+				1801883A18D4ACCF0017E54D /* FMMainViewController.m in Sources */,
+				1801880318D4ABD20017E54D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801881018D4ABD20017E54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801882218D4ABD20017E54D /* FMPageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1801881A18D4ABD20017E54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180187F218D4ABD20017E54D /* FMPageViewController */;
+			targetProxy = 1801881918D4ABD20017E54D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180187FF18D4ABD20017E54D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1801880018D4ABD20017E54D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1801880818D4ABD20017E54D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1801880918D4ABD20017E54D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1801881E18D4ABD20017E54D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1801881F18D4ABD20017E54D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1801882318D4ABD30017E54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1801882418D4ABD30017E54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1801882618D4ABD30017E54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMPageViewController/FMPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "FMPageViewController/FMPageViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1801882718D4ABD30017E54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMPageViewController/FMPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "FMPageViewController/FMPageViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1801882918D4ABD30017E54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMPageViewController.app/FMPageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMPageViewController/FMPageViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMPageViewControllerTests/FMPageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1801882A18D4ABD30017E54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FMPageViewController.app/FMPageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMPageViewController/FMPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "FMPageViewControllerTests/FMPageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180187EE18D4ABD20017E54D /* Build configuration list for PBXProject "FMPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801882318D4ABD30017E54D /* Debug */,
+				1801882418D4ABD30017E54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1801882518D4ABD30017E54D /* Build configuration list for PBXNativeTarget "FMPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801882618D4ABD30017E54D /* Debug */,
+				1801882718D4ABD30017E54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1801882818D4ABD30017E54D /* Build configuration list for PBXNativeTarget "FMPageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801882918D4ABD30017E54D /* Debug */,
+				1801882A18D4ABD30017E54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180187EB18D4ABD20017E54D /* Project object */;
+}
