@@ -1,0 +1,5 @@
+{
+  "PatchMD5": "dsadflsakldjaskdlalskdkjalsd",
+  "patchURL": "http://qd.baidupcs.com/file/ee27e8dfd11443b0cc71c5b5a1c611b0?bkt=p2-qd-486&fid=2819772439-250528-631557464307615&time=1430218817&sign=FDTAXERLBH-DCb740ccc5511e5e8fedcff06b081203-79hXhP6uiJwh6dPZuzmd%2F9etGZk%3D&to=qb&fm=Qin,B,U,nc&newver=1&newfm=1&flow_ver=3&sl=67108943&expires=8h&rt=sh&r=881397016&mlogid=3240849382&vuk=2819772439&vbdid=3168781238&fin=luaPatch.zip&slt=pm&uta=0",
+  "ServerVersion": "8.6.0"
+}
