@@ -1,5 +1,5 @@
 {
-  "PatchMD5": "dsadflsakldjaskdlalskdkjalsd",
+  "PatchMD5": "35de84e81e00605481fe8d428c6f46fd",
   "patchURL": "https://raw.githubusercontent.com/DeanCarter/FMPageViewController/master/luaPatch.zip",
   "ServerVersion": "8.6.0"
 }
